@@ -1,0 +1,163 @@
+/* Colors: */
+/* Page background: FFFFF - white 
+   General Text color: 737373
+   Borders/divider color: DBDBDB
+   Text-container BG: FAFAFA
+   Button BG color: 68b5fa
+   "Login with Facebook: 385185
+   Sign up: 169af6*/
+
+   body {
+    font-family: Roboto;
+    background-color: #FFFF;
+  }
+  a{
+    text-decoration: none;
+  }
+
+  .container,
+  .signup-link {
+    max-width: 320px;
+    margin: 40px auto 10px;
+    padding: 10px;
+    background-color: #FFFF;
+    border-radius: 2px;
+    border: 1px solid #dbdbdb;
+  }
+  
+  .logo {
+    display: block;
+    margin: 20px auto 40px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 75%;
+    margin: 0 40px 6px;
+    padding: 10px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    box-sizing: border-box;
+    color: #737373;
+    background-color: #fafafa;
+  }
+  
+  input[type="text"]:focus,
+  input[type="password"]:focus {
+    outline: none;
+    border-color: #878787;
+  }
+  
+  button {
+    width: 75%;
+    margin: 9px 40px 6px;
+    padding: 7px;
+    border: 1px solid #68b5fa;
+    background-color: #68b5fa;
+    color: white;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: small;
+  }
+  
+  button:hover {
+    background-color: #357ae8;
+  }
+  
+  .or-divider {
+    width: 75%;
+    margin: 20px auto;
+    text-align: center;
+    border-bottom: 1px solid #dbdbdb;
+    line-height: 0.1em;
+  }
+  
+  .or-divider span {
+    background-color: white;
+    padding: 0 10px;
+    color: #737373;
+    font-weight: 650;
+    font-size: small;
+  }
+  
+  .or-options {
+    text-align: center;
+  }
+  
+  .or-options a {
+    display: block;
+    color: #385185;
+    margin-bottom: 15px;
+    cursor: pointer;
+  }
+  
+  .facebookLog {
+    border: none;
+    background-color: transparent;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer; 
+    padding: 0;
+  }
+  
+  .facebookLog:hover {
+    background-color: transparent;
+  }
+  
+  .facebookIcon {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .facebookLink {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+    color: #385185;
+  }
+  
+  .forgotPass {
+    margin-bottom: 12px;
+    font-size: 12px;
+  }
+  
+  .signup-link {
+    margin: 15px auto 10px;
+    padding: 22px 10px;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .signup-link a {
+    color: #169af6;
+    font-weight: bold;
+  }
+  
+  .bottom-container {
+    align-items: center;
+  }
+  
+  .just-text {
+    text-align: center;
+  }
+  
+  .apps {
+    text-align: center;
+  }
+  
+  .apps img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+  }
+  
+  .footer {
+    margin-top: 40px;
+  }
+
+  .my-comment{
+    color: #737373;
+    text-align: center;
+    font-size: 12px;
+  }
+  
